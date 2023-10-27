@@ -5,6 +5,8 @@ This is a database project aimed to model the time series dataset from individua
 ## Installation
 ### Django
 Ensure that you have Django installed, see [docs](https://docs.djangoproject.com/en/4.2/intro/install/) for instructions
+### Python
+Ensure that you have Python installed, see [docs](https://www.python.org/downloads/) for instructions
 ### Python Packages
 ```python
 pip install -r requirements.txt
