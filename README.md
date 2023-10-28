@@ -8,5 +8,23 @@ Ensure that you have Django installed, see [docs](https://docs.djangoproject.com
 ### Python
 Ensure that you have Python installed, see [docs](https://www.python.org/downloads/) for instructions
 ### Python Packages
-```python
+```bash
 pip install -r requirements.txt
+```
+### Back to Django
+```bash
+python manage.py migrate
+```
+
+```bash
+python oedi/parsers.py
+```
+
+```bash
+python manage.py shell
+```
+#### Once in shell
+```python
+from fe_project.oedi.models import *
+OEDIBuildingEnergyUsage.objects.all()
+```
